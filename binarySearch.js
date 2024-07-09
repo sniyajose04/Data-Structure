@@ -31,4 +31,29 @@ if(result !== -1){
     console.log("Element is not present in array")
 }
 
+//recurrsive binary search 
 
+
+function binarySearchRecursive(array,targets,left,right){
+    if(left>right){
+        return -1
+    }
+    let mid = Math.floor((left+right)/2)
+
+    if(array[mid]===targets){
+        return mid
+    }else if(array[mid]<targets){
+        return binarySearchRecursive(array,targets,mid+1,right)
+    }else {
+        return binarySearchRecursive(array,targets,left,mid-1)
+    }
+
+}
+
+function binarySearchs(array,targets){
+return binarySearchRecursive(array,targets,0,array.length-1)
+
+}
+const array = [2,4,6,8,10,12,14,16,18,20];
+const targets = 12;
+console.log(binarySearchs(array,targets))

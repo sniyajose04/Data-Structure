@@ -47,7 +47,7 @@ console.log(countElem(array1,targetElem))
 const array2 = [3,2,9,8,4,6,5,7]
 const tarElem = 7
  function lastElem(array2,tarElem){
-    for(let i=array.length-1;i<=0;i++){
+    for(let i=array.length-1;i>=0;i++){
         if(array2[i]==tarElem){
             return i
         }
