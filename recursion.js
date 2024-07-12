@@ -1,4 +1,4 @@
-//factorial using for loop
+//----------------------factorial using for loop---------------------------//
 let n=5
 let k = 1
 for(let i=2;i<=n;i++){
@@ -6,9 +6,8 @@ for(let i=2;i<=n;i++){
 }
 console.log(k)
 
-//factoerial using recursion
 
-// Factorial Calculation
+// -------------------Factorial Calculation-----------------------------//
 let m=5;
 function f(m){
  if(m<=1){
@@ -20,7 +19,7 @@ function f(m){
 
 console.log(f(m))
 
-// Fibonacci Sequence
+//------------------ Fibonacci Sequence-------------------------//
 
 function fibonacci(n){
     if(n<=1){
@@ -31,7 +30,7 @@ function fibonacci(n){
 }
 console.log(fibonacci(8))
 
-//String Reversal
+//---------------String Reversal---------------------//
 
 function reverseString(str){
     if(str === ""){
@@ -42,7 +41,7 @@ function reverseString(str){
 }
 console.log(reverseString("sniya"))
 
-// palindrome using recursion
+//-------------------------- palindrome using recursion----------------------//
 
 function isPalidrome(str){
     if(str.length<=1){
@@ -58,7 +57,7 @@ function isPalidrome(str){
 console.log(isPalidrome("sniya"))
 console.log(isPalidrome("malayalam"))
 
-//multiple 
+//---------------------multiple-------------------------//
 
 function findmultiple(number,count,current=1,multiples=[]){
     if(current>number){

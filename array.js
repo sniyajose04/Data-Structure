@@ -1,3 +1,5 @@
+//----------------------------------------sum of two element into target--------------------------//
+
 // let array = [2, 9, 4, 7, 8, 1, 6];
 // let target = 10;
 
@@ -17,10 +19,10 @@
 // //time complexity = o(n^2)
 // //space complexity = o(1)
 
+//------------------------------------------move target element to last-----------------------------//
+
 // let array1 = [6,2,9,4,7,8,1,6,7,3,6,2,4,9,6];
 // let targets = 6
-
-
 // function repeat(array1,targets){
 // let targetElements =[]
 // let nonTargetElements = []
@@ -36,7 +38,7 @@
 // console.log(repeat(array1,targets))
 
 
-// //middle
+// //-----------------------------middle----------------------------------//
 
 // function middleElem(array){
 //     if(array.length===0){
@@ -51,7 +53,7 @@
 //    }
 //    console.log(middleElem(array))
 
-//    //delete middle
+// //----------------------------------------delete middle---------------------------------//
 
 //    function deleteElem(array) {
 //     if (array.length === 0) {
@@ -68,7 +70,7 @@
 
 // console.log(deleteElem(array))
 
-// //find duplicate(true/false)
+// //--------------------------------------------find duplicate(true/false)-----------------------------------//
 
 // function duplicate(array){
 //     for(let i=0;i<array.length;i++){
@@ -83,20 +85,20 @@
 
 // console.log(duplicate(array))
 
-// //check duplicate and find
+// //------------------------------------------check duplicate and find--------------------------------------//
 
 // // const duplicate = array.filter((num,index)=>{
 // //     return array.indexOf(num)!==index
 // // })
 // // console.log(duplicate);
 
-// //even number
+// //----------------------------------even number-------------------------------///
 
 // let array8 = [2,6,5,7,8]
 // const result = array8.filter((num)=>num%2==0)
 // console.log(result)
 
-//secondlarget element
+//----------------------------------------secondlarget element---------------------------------//
 
 // let array6 = [2,9,8,7,6,5,4,3]
 // const result = Math.max(...array6)

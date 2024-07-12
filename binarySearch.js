@@ -1,4 +1,4 @@
-// Find an Element in a Sorted Array
+//------------------------ Find an Element in a Sorted Array--------------------------//
 
 function binarySearch(arr,target){
     let left =0;
@@ -31,7 +31,7 @@ if(result !== -1){
     console.log("Element is not present in array")
 }
 
-//recurrsive binary search 
+//----------------------recurrsive binary search ------------------------------//
 
 
 function binarySearchRecursive(array,targets,left,right){
@@ -57,3 +57,5 @@ return binarySearchRecursive(array,targets,0,array.length-1)
 const array = [2,4,6,8,10,12,14,16,18,20];
 const targets = 12;
 console.log(binarySearchs(array,targets))
+
+//replace target into 0
