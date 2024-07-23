@@ -28,7 +28,7 @@
 // console.log(palidrome("sniya"))
 // console.log(palidrome("malayalam"))
 
-//-----------------------------count of string----------------------//
+//-----------------------------count of substring----------------------//
 
 // function countOverlappingOccurrences(str, substring) {
 //     let count = 0;
@@ -51,3 +51,27 @@
 // console.log(removeduplicate("sniya"))
 // console.log(removeduplicate("malayalam"))
 
+
+//---------------------------remove duplicate from the string--------------------------------//
+
+function duplicatesss(array) {
+    let duplicate = [];
+    for (let i = 0; i < array.length; i++) {
+        let isduplicate = false;
+        for (let k = 0; k < duplicate.length; k++) {
+            if (array[i] === duplicate[k]) {
+                isduplicate = true;
+                break;
+            }
+        }
+        if (!isduplicate) {
+            
+                    duplicate.push(array[i]);
+                 
+        }
+    }
+    return duplicate;
+}
+
+const array = ['s','r','s','t','t'];
+console.log(duplicatesss(array)); 

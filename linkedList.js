@@ -605,3 +605,4 @@ class LinkedList {
 
 // list1.merge(list2)
 // list1.print()
+
